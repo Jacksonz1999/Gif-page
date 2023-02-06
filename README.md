@@ -1,4 +1,4 @@
-# Gif-page
+
 `#challenge` `#3d` `#tech-interview` `#master-in-software-development`
 
 # Gif-page <!-- omit in toc -->
