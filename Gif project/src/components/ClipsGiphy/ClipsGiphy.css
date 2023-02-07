@@ -1,0 +1,43 @@
+.clips_giphy {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 8px;
+  margin-bottom: 80px;
+}
+.first_section {
+  height: 400px;
+  width: 750px;
+}
+.first_section_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.second_section {
+  height: 400px;
+  width: 450px;
+}
+
+.second_section_img {
+  height: 200px;
+  width: 350px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.avatar_image {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.clips_giphy p {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}

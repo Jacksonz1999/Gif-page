@@ -1,0 +1,19 @@
+.name {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.media_name {
+  display: flex;
+  margin-bottom: 8px;
+}
+.trending_container {
+  display: flex;
+  height: 150px;
+  overflow: hidden;
+}
+.artists_container {
+  display: flex;
+  height: 150px;
+  overflow: hidden;
+}

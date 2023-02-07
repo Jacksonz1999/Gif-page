@@ -1,0 +1,25 @@
+.search_container {
+  background-color: blue;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-top: 5px;
+}
+.search_container input {
+  flex: 1;
+  border: none;
+  height: 50px;
+  padding-left: 6px;
+}
+.search_container :focus {
+  outline: none;
+}
+::placeholder {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.search_button {
+  height: 50px;
+  width: 50px;
+}
