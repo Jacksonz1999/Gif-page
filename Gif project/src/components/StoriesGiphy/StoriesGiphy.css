@@ -1,0 +1,34 @@
+.landscape-left-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.landscape-right-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.no-landscape-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.landscape-middle-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.giphy-tile {
+  height: 280px;
+}
+.stories_image {
+  width: 100%;
+  height: 300px;
+}
+.stories_title {
+  font-size: 5px;
+}

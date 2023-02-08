@@ -3,7 +3,7 @@ import api from "./api";
 const GIPHY_BASE_URL = "https://api.giphy.com/v1/gifs/";
 const DEFAULT_PARAMS = {
   api_key: "UBwZnmlk5k3JjjJrRoG6Wu8lUsXDRZmw",
-  limit: 20,
+  limit: 40,
 };
 export const fetchTrendingGiphys = () => {
   return api.get("trending", {

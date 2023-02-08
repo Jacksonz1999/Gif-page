@@ -6,6 +6,7 @@ import giphyArtists from "../ArtistsGiphy/artists";
 import ArtistsGiphy from "../ArtistsGiphy/ArtistsGiphy";
 import "./Media.css";
 import ClipsGiphy from "../ClipsGiphy/ClipsGiphy";
+import StoriesGiphy from "../StoriesGiphy/StoriesGiphy";
 const Media = () => {
   const [trending, setTrending] = useState([]);
   const [artists, setArtists] = useState([]);
@@ -44,7 +45,7 @@ const Media = () => {
     getTrendingGiphy();
     getArtistsGiphy();
     getClipsGiphy("league of legend", setClips);
-    getStoriesGiphy("sant valentin", setStories);
+    getStoriesGiphy(" cat ", setStories);
   }, []);
   /*   console.log(trending,"trending testing!") */
   /*  console.log(clips, "clips testing!"); */
@@ -92,7 +93,7 @@ const Media = () => {
           <h1>📜Stories</h1>
         </div>
         <div className="stories_container">
-          <p>Stories</p>
+          <StoriesGiphy giphyArray={stories} />
         </div>
       </div>
     </div>
