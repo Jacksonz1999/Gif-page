@@ -7,6 +7,7 @@ import SportsPage from "../pages/SportsPage/SportsPage";
 import StickersPage from "../pages/StickersPage/StickersPage";
 import TrendsPage from "../pages/TrendsPage/TrendsPage";
 import SearchPage from "../pages/SearchPage/SearchPage";
+import ReactionsPage from "../pages/ReactionsPage/ReactionsPage";
 const GifRouter = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const GifRouter = () => {
           <Route path="/TrendsPage" element={<TrendsPage />} />
           <Route path="/StickersPage" element={<StickersPage />} />
           <Route path="/Search" element={<SearchPage />} />
+          <Route path="/ReactionsPage" element={<ReactionsPage />} />
         </Routes>
       </Router>
     </>

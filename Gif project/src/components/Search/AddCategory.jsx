@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./SearchContainer.css";
 
 const AddCategory = ({ setCategory }) => {
   const [value, setValue] = useState();
@@ -14,17 +15,18 @@ const AddCategory = ({ setCategory }) => {
     setValue("");
   };
   return (
-    <>
+    <div className="input_search">
       <form onSubmit={searchGif}>
         <input
+          className="input_decoration"
           type="text"
-          placeholder="Search..."
+          placeholder="Search...🔎"
           onChange={(e) => setValue(e.target.value)}
           value={value}
         />
       </form>
       {error ? <p className="error">La busqueda no puede ser vacia</p> : ""}
-    </>
+    </div>
   );
 };
 

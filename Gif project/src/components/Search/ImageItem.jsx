@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./SearchContainer.css";
 const ImageItem = ({ title, url }) => {
   return (
     <>
       <div>
-        <img src={url} alt={title} />
+        <img style={{ width: "200px" }} src={url} alt={title} />
         <p>{title}</p>
       </div>
     </>

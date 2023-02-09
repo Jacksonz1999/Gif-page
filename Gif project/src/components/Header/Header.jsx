@@ -10,12 +10,16 @@ const Header = () => {
     <div className="header">
       <img className="logo_img" src={Image} />
       <div className="menu">
-        <button className="menu_button">
-          <div className="menu_decoration hover-menu">
-            <h2>Reactions</h2>
-          </div>
-        </button>
-
+        <Link
+          to="/ReactionsPage"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          <button className="menu_button">
+            <div className="menu_decoration hover-menu">
+              <h2>Reactions</h2>
+            </div>
+          </button>
+        </Link>
         <button className="menu_button">
           <Link
             to="/Entertainment"
