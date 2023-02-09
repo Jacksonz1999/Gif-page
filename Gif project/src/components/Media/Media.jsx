@@ -42,12 +42,14 @@ const Media = () => {
     const searched = await fetchSearchGiphys(query);
     setState(randomizeData(searched.data));
   };
+
   useEffect(() => {
     getTrendingGiphy();
     getArtistsGiphy();
     getClipsGiphy("league of legend", setClips);
     getStoriesGiphy(" cat ", setStories);
   }, []);
+
   console.log(trending, "trending testing!");
   /*  console.log(clips, "clips testing!"); */
   /*   console.log(artists, "artists testing!"); */

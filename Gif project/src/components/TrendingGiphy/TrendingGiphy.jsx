@@ -1,5 +1,5 @@
 import React from "react";
-import "swiper/css";
+
 import "./TrendingGiphy.css";
 
 const TrendingGiphy = ({ giphy }) => {

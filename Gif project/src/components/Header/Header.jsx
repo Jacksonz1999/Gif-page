@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
-      <img className="logo_img" src={Image} />
+      <Link to="/">
+        <img className="logo_img" src={Image} />
+      </Link>
       <div className="menu">
         <Link
           to="/ReactionsPage"
