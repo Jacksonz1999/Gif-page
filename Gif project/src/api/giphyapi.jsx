@@ -2,7 +2,8 @@ import api from "./api";
 
 const GIPHY_BASE_URL = "https://api.giphy.com/v1/gifs/";
 const DEFAULT_PARAMS = {
-  api_key: "UBwZnmlk5k3JjjJrRoG6Wu8lUsXDRZmw",
+  api_key:
+    "UBwZnmlk5k3JjjJrRoG6Wu8lUsXDRZmw" /* process.env.REACT_APP_GIPHY_API_KEY */,
   limit: 40,
 };
 export const fetchTrendingGiphys = () => {
