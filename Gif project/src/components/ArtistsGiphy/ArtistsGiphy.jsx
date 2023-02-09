@@ -4,7 +4,11 @@ const ArtistsGiphy = ({ giphy }) => {
   return (
     <>
       <div className="artists_giphy" key={giphy.id}>
-        <img src={giphy.images.downsized.url} alt={giphy.title}></img>
+        <img
+          style={{ height: "100%", marginRight: "5px" }}
+          src={giphy.images.downsized.url}
+          alt={giphy.title}
+        ></img>
       </div>
     </>
   );

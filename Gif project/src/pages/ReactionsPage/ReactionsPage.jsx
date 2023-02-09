@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import Reaction from "../../components/ReactionsGiphy/Reaction";
 import SearchContainer from "../../components/Search/SearchContainer";
-
+import Reaction from "../../components/ReactionsGiphy/Reaction";
 import "./ReactionsPage.css";
 const ReactionsPage = () => {
   return (
