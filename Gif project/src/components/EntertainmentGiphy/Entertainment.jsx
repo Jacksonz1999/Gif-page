@@ -20,7 +20,7 @@ const Entertainment = () => {
   console.log(entertainment, "Entertainment testing");
   return (
     <>
-      <p className="entertainment_title">All the entertainment GIFs</p>
+      <p className="entertainment_title">All the Entertainment GIFs</p>
       <div className="entertainment_container">
         <div className="entertainment_gif">
           {entertainment?.map((entertainmentGiphy, index) => {

@@ -35,11 +35,6 @@ const withAbort =
 const api = (axios) => {
   return {
     get: (url, config = {}) => withAbort(axios.get)(url, config),
-    /*    post: (url, body, config = {}) => withAbort(axios.post)(url, body, config),
-    put: (url, body, config = {}) => withAbort(axios.put)(url, body, config),
-    patch: (url, body, config = {}) =>
-      withAbort(axios.patch)(url, body, config),
-    delete: (url, config = {}) => withAbort(axios.delete)(url, config), */
   };
 };
 

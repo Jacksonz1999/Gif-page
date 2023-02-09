@@ -70,8 +70,14 @@ const Header = () => {
           </div>
         </button>
       </div>
+
       <button className="button_header hover-menu">
-        <h2>Upload</h2>
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/UploadPage"
+        >
+          <h2>Upload</h2>
+        </Link>
       </button>
       <button className="button_header hover-menu">
         <h2>Create</h2>

@@ -1,21 +1,17 @@
 import React from "react";
-import videoBack from "../../assets/video/forest-still.mp4";
+import Header from "../../components/Header/Header";
+import SearchContainer from "../../components/Search/SearchContainer";
+import UploadImage from "../../components/UploadImage/UploadImage";
+
 const UploadPage = () => {
   return (
-    <video
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        width: "90%",
-        height: "100%",
-        overflow: "hidden",
-      }}
-      src={videoBack}
-      autoPlay
-      loop
-      muted
-      id="video"
-    ></video>
+    <div className="center_body">
+      <div className="full_body">
+        <Header />
+        <SearchContainer />
+        <UploadImage />
+      </div>
+    </div>
   );
 };
 
